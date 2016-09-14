@@ -113,6 +113,11 @@ typedef enum {
     LED_OVERLAY_LANDING_FLASH,
     LED_OVERLAY_INDICATOR,
     LED_OVERLAY_WARNING,
+    LED_OVERLAY_ER_BLINK,
+    LED_OVERLAY_ER_STROBE1, // red - blue
+    LED_OVERLAY_ER_STROBE2, // blue - red
+    LED_OVERLAY_BRAKE,
+    LED_OVERLAY_BACKUP,
 } ledOverlayId_e;
 
 typedef struct modeColorIndexes_s {
